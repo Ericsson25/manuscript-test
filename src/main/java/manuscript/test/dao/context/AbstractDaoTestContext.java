@@ -16,7 +16,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 public abstract class AbstractDaoTestContext {
 	
 	public static final String DATABASE_DRIVER_CLASS = "com.mysql.jdbc.Driver";
-	public static final String DATABASE_URL = "jdbc:mysql://35.187.161.99:3306/manuscript_test";
+	public static final String DATABASE_URL = "jdbc:mysql://localhost:3306/manuscript_test";
 	public static final String DATABASE_USER_NAME = "manuscript";
 	public static final String DATABASE_PASSWORD = "p*P4druxab";
 	
